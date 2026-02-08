@@ -70,6 +70,36 @@ src/
 └── App.tsx               # Root — tabs + state wiring
 ```
 
+## Usage Guide
+
+### Finding a palette from scratch
+
+Hit spacebar to roll through random palettes until something clicks. The golden ratio math means the colors are already balanced — they won't clash. When you see a color you love, lock it (click the lock icon), then keep generating until the rest of the palette falls into place.
+
+### Building a UI color system
+
+Most apps need 5 roles — primary action color, secondary/accent, background, surface/card, and text. Once you've locked in a palette, map those 5 swatches to those roles. Copy the hex values directly into your Tailwind config, CSS variables, or whatever your app uses.
+
+### Checking accessibility before you ship
+
+Every swatch shows a WCAG contrast ratio against white. If you're putting text on a colored background, that number tells you if it's readable. Below 4.5:1 means small text will be hard to read. Below 3:1 means even large text fails. You can catch accessibility issues before writing any code.
+
+### Exploring color relationships
+
+Switch to the Harmony tab, paste in your brand's primary color, and instantly see what complementary, analogous, triadic, split-comp, and tetradic palettes look like. This is useful when you already have one color (like a client's brand color) and need to build a full scheme around it.
+
+### Saving and comparing options
+
+Save multiple palettes with descriptive names ("dark mode attempt 2", "landing page warm"), then flip through them in the Saved tab. Export the whole collection as JSON to share with a teammate or feed into a build tool.
+
+### Quick workflow
+
+1. Generate until you find a vibe
+2. Lock colors, refine the rest
+3. Check contrast ratios for accessibility
+4. Save it, copy the hex codes
+5. Paste into your app's theme config
+
 ## How It Works
 
 **Palette generation** distributes hues using the golden ratio (0.618...) for visually pleasing spacing, with randomized saturation (55-85%) and lightness (45-70%). Locked colors are preserved across regenerations.
