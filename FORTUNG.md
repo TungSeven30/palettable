@@ -1,8 +1,8 @@
-# ColorMind — What I Built and What I Learned
+# Palettable — What I Built and What I Learned
 
 ## What Is This?
 
-ColorMind is a color palette generator and harmony analyzer with a dark cosmic theme. Think of it as a creative tool for designers and developers who need to quickly generate harmonious color palettes, understand color relationships, and save their favorites for later.
+Palettable is a color palette generator and harmony analyzer with a dark cosmic theme. Think of it as a creative tool for designers and developers who need to quickly generate harmonious color palettes, understand color relationships, and save their favorites for later.
 
 The app has three main features:
 1. **Generator** — Generates 5-color palettes using the golden ratio for maximally distributed hues. You can lock individual colors and regenerate the rest (press spacebar!).

@@ -1,4 +1,4 @@
-# ColorMind
+# Palettable
 
 Color palette generator and harmony analyzer with a dark cosmic theme.
 
@@ -28,8 +28,8 @@ No router, no Context API — single page with tabs and props-only state passing
 ## Getting Started
 
 ```bash
-git clone https://github.com/TungSeven30/colors-help.git
-cd colors-help
+git clone https://github.com/TungSeven30/palettable.git
+cd palettable
 npm install
 npm run dev
 ```

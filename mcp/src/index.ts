@@ -18,7 +18,7 @@ import type { ColorInfo, ContrastResult } from './color.js'
 import type { HarmonyResult } from './harmony.js'
 
 const server = new Server(
-  { name: 'colormind', version: '1.0.0' },
+  { name: 'palettable', version: '1.0.0' },
   { capabilities: { tools: {} } },
 )
 

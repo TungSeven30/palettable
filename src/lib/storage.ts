@@ -5,7 +5,7 @@ export interface SavedPalette {
   createdAt: string
 }
 
-const STORAGE_KEY = 'colormind-palettes'
+const STORAGE_KEY = 'palettable-palettes'
 
 export function loadPalettes(): SavedPalette[] {
   try {
@@ -27,7 +27,7 @@ export function exportPalettesJSON(palettes: SavedPalette[]): void {
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = 'colormind-palettes.json'
+  a.download = 'palettable-palettes.json'
   a.click()
   URL.revokeObjectURL(url)
 }

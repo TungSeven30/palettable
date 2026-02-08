@@ -42,7 +42,7 @@ export default function App() {
         {/* Header */}
         <header className="text-center mb-8">
           <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            ColorMind
+            Palettable
           </h1>
           <p className="text-muted-foreground mt-1 text-sm">
             Color palette generator & harmony analyzer
